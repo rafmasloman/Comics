@@ -1,0 +1,11 @@
+@mixin flex-direction($justify-content) {
+  display: flex;
+  justify-content: $justify-content;
+  align-items: center;
+}
+
+@mixin btn-typography($size) {
+  font-family: "Poppins", sans-serif;
+  font-size: $size;
+  font-weight: 600;
+}
